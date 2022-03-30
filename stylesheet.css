@@ -25,6 +25,7 @@
         border: none;
         background-color: #1d1a1a;
         color: #fff;
+        outline: none;
       }
 
       .calculator-grid > .operator {
@@ -33,6 +34,7 @@
         border: none;
         background-color: #1d1a1a;
         color: cyan;
+        outline: none;
         }
   
         .calculator-grid > button:hover {
@@ -46,7 +48,7 @@
           cursor: pointer;
           font-size: 2rem;
           border: none;
-          
+          outline: none;
         }
   
         .output{
