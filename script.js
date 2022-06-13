@@ -37,7 +37,7 @@ class Calculator {
       if (isNaN(prev) || isNaN(current)) return
       switch (this.operation) {
         case '+':
-          computation = prev + current
+          computation = ((prev * 10) + (current *10)) / 10
           break
         case '-':
           computation = prev - current
